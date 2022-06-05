@@ -23,11 +23,22 @@
     --font2: "Sora", sans-serif;
 }
 
+.texto-laranja {
+    color: var(--laranja);
+}
+
 /* ========================= REMOVER ESPAÇAMENTOS ========================= */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+/* ========================= ALINHAS TODOS AS DIVS COM A CLASSE CONTAINER AO CENTRO DA TELA ========================= */
+.container {
+    display: block;
+    margin: 0 auto;
+    width: 1280px;
 }
 
 /* ========================= ADAPTAR IMAGENS À TELA ========================= */
@@ -36,4 +47,21 @@ img {
     max-width: 100%;
 }
 
+/* ========================= LINKS ========================= */
+a {
+    text-decoration: none;
+}
+
 /* ========================= BOTÕES ========================= */
+.botao {
+    display: block;
+    color: var(--branco);
+    background-color: var(--laranja);
+    font-family: var(--font1);
+    border-radius: 10px;
+    text-align: center;
+    padding: 15px 0;
+    transition: 0.3s;
+}
+
+
