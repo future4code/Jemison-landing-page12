@@ -1,4 +1,6 @@
 @import url(/assets/css/global.css); /* Estilos que podem ser usados para vários elementos */
+@import url(/assets/css/tipografia.css); /* Tipografia do projeto */
+@import url(/assets/css/cores.css); /* Cores do projeto */
 @import url(/assets/css/header.css); /* Estilização do cabeçalho  */
 @import url(/assets/css/main.css); /* Estilização das informações centrais do site */
 @import url(/assets/css/sections-matheus.css); /* Estilização das sections do Matheus */

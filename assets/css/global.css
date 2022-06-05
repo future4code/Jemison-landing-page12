@@ -1,32 +1,3 @@
-/* ========================= CORES ========================= */
-/* Para usar uma das cores, basta digitar color/ background-color: var(--nome-da-cor) */
-
-:root {
-    --preto: #1d1d1d;
-    --cinza: #45525b;
-    --cinza-medio: #a8bbc6;
-    --cinza-claro: #f5f6fa;
-    --branco: #ffffff;
-    --laranja: #f47e20;
-    --laranja-claro: #f6b057;
-    --verde: #8dc63f;
-}
-
-/* ========================= TIPOGRAFIA ========================= */
-/* Para usar uma das fontes, basta digitar font-family: var(--nome-da-fonte) */
-
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
-
-:root {
-    --font1: "Inter", Arial, Helvetica, sans-serif;
-    --font2: "Sora", sans-serif;
-}
-
-.texto-laranja {
-    color: var(--laranja);
-}
-
 /* ========================= REMOVER ESPAÇAMENTOS ========================= */
 * {
     margin: 0;
@@ -64,4 +35,7 @@ a {
     transition: 0.3s;
 }
 
-
+/* ========================= SPAN ========================= */
+.quebra-de-linha {
+    display: block;
+}

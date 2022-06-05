@@ -5,10 +5,6 @@ main h2 {
     width: 660px;
 }
 
-main h2 > span {
-    display: block;
-}
-
 main .texto-laranja {
     font-weight: bold;
 }
