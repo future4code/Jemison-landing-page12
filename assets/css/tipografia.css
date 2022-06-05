@@ -1,0 +1,19 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sora:wght@100;200;300;400;500;600;700;800&display=swap");
+
+/* ========================= TIPOGRAFIA ========================= */
+/* Para usar uma das fontes, basta digitar font-family: var(--nome-da-fonte) */
+
+:root {
+    --font1: "Inter", Arial, Helvetica, sans-serif;
+    --font2: "Sora", sans-serif;
+}
+
+.texto-laranja {
+    color: var(--laranja);
+}
+
+.subtitulo {
+    font-size: 72px;
+    font-weight: normal;
+}
