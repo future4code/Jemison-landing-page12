@@ -9,14 +9,11 @@ main .texto-laranja {
     font-weight: bold;
 }
 
-main img {
-    width: 456px;
-}
-
-.container {
+main .container {
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 main .botao {

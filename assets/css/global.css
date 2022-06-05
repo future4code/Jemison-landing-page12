@@ -5,11 +5,12 @@
     box-sizing: border-box;
 }
 
-/* ========================= ALINHAS TODOS AS DIVS COM A CLASSE CONTAINER AO CENTRO DA TELA ========================= */
+/* ========================= ALINHA TODAS AS DIVS COM A CLASSE CONTAINER AO CENTRO DA TELA ========================= */
 .container {
     display: block;
     margin: 0 auto;
     width: 1280px;
+    padding: 0 20px;
 }
 
 /* ========================= ADAPTAR IMAGENS À TELA ========================= */
@@ -33,9 +34,4 @@ a {
     text-align: center;
     padding: 15px 0;
     transition: 0.3s;
-}
-
-/* ========================= SPAN ========================= */
-.quebra-de-linha {
-    display: block;
 }

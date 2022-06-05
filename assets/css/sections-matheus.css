@@ -1,4 +1,24 @@
 /* ========================= SECTION 1 ========================= */
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+section .imagem-matheus {
+    width: 456px;
+}
+
+section .botao {
+    margin-top: 32px;
+    max-width: 150px;
+}
+
+section .botao:hover {
+    color: var(--cinza-claro);
+    background-color: var(--laranja-claro);
+}
 
 /* ========================= SECTION 3 ========================= */
 
