@@ -1,0 +1,27 @@
+main h2 {
+    font-size: 48px;
+    font-family: var(--font2);
+    font-weight: normal;
+    width: 660px;
+}
+
+main .texto-laranja {
+    font-weight: bold;
+}
+
+main .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+main .botao {
+    margin-top: 40px;
+    max-width: 464px;
+}
+
+main .botao:hover {
+    color: var(--cinza-claro);
+    background-color: var(--laranja-claro);
+}

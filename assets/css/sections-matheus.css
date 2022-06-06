@@ -1,11 +1,21 @@
 /* ========================= SECTION 1 ========================= */
+section .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
 
-/* ========================= SECTION 3 ========================= */
+section .imagem-matheus {
+    width: 456px;
+}
 
-/* ========================= SECTION 5 ========================= */
+section .botao {
+    margin-top: 32px;
+    max-width: 150px;
+}
 
-/* ========================= SECTION 7 ========================= */
-
-/* ========================= SECTION 11 ========================= */
-
-/* ========================= RESPONSIVIDADE ========================= */
+section .botao:hover {
+    color: var(--cinza-claro);
+    background-color: var(--laranja-claro);
+}
