@@ -1,9 +1,72 @@
 /* ========================= HEADER ========================= */
+header{
+    display: flex;
+    position: fixed;
+    background-color: var(--branco);
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 80px;
+    width: 100%;
+    margin: 0 23px;
+    padding: 32px 12px;
+    font-family: var(--font1);
+}
 
+.cabecalho-principal{
+   display: flex;
+   align-items: center;
+   padding: 0 12px; 
+   gap: 15px;
+}
 /* ------------------------- logo ------------------------- */
-
+.cabecalho-logo{
+    font-size: 30px; /*vai ser substituido pela logo*/
+    font-weight: bolder;
+    color: var(--laranja);
+    
+}
 /* ------------------------- nav ------------------------- */
+nav{
+    display: flex;
+    gap: 10px;
+    font-size: 14px;
+    color: var( --preto);
 
+}
+nav> a{
+    text-decoration: none;
+    color: var(--preto);
+    font-weight: bolder;
+}
+
+.icone-pesquisa{
+    width: 30px;
+}
 /* ------------------------- botoes ------------------------- */
+.botoes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
+.cavecalho-botao1{
+    padding: 10px 12px 10px;
+    background-color: var(--laranja);
+    color: var(--branco) ;
+    font-size: 14px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cavecalho-botao2{
+    padding: 10px 12px 10px;
+    background-color: var(--branco);
+    color: var(--laranja) ;
+    font-size: 14px;
+    border-color: var(--laranja);
+    border-radius: 10px;
+    
+}
 /* ========================= RESPONSIVIDADE ========================= */
