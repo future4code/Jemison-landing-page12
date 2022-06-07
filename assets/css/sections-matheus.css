@@ -3,11 +3,10 @@ section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
 }
 
-section .imagem-matheus {
-    width: 456px;
+section .imagem-section {
+    width: 556px;
 }
 
 section .botao {

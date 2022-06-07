@@ -10,12 +10,10 @@
     display: block;
     margin: 0 auto;
     width: 1280px;
-    padding: 0 20px;
 }
 
 /* ========================= ADAPTAR IMAGENS À TELA ========================= */
 img {
-    display: block;
     max-width: 100%;
 }
 
@@ -34,4 +32,12 @@ a {
     text-align: center;
     padding: 15px 0;
     transition: 0.3s;
+}
+
+/* ========================= RESPONSIVIDADE ========================= */
+@media (max-width: 990px) {
+    .container {
+        display: block;
+        width: 960px;
+    }
 }
