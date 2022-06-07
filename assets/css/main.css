@@ -1,4 +1,4 @@
-main h2 {
+main .titulo {
     font-size: 48px;
     font-family: var(--font2);
     font-weight: normal;
@@ -13,7 +13,10 @@ main .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    gap: 40px;
+}
+
+main .imagem-main {
+    width: 536px;
 }
 
 main .botao {
@@ -24,4 +27,16 @@ main .botao {
 main .botao:hover {
     color: var(--cinza-claro);
     background-color: var(--laranja-claro);
+}
+
+/* ========================= RESPONSIVIDADE ========================= */
+@media (max-width: 990px) {
+    main .titulo {
+        width: 336px;
+    }
+
+    main .botao {
+        margin-top: 40px;
+        max-width: 216px;
+    }
 }
