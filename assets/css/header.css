@@ -6,31 +6,34 @@ header{
     gap: 20px;
     align-items: center;
     justify-content: space-evenly;
-    height: 80px;
+    height: 85px;
     width: 100%;
-    margin: 0 23px;
-    padding: 32px 12px;
+    /* margin: 0 23px;
+    padding: 20px 12px;  */
     font-family: var(--font1);
 }
 
 .cabecalho-principal{
    display: flex;
    align-items: center;
-   padding: 0 12px; 
+   padding: 0 20px; 
    gap: 15px;
 }
 /* ------------------------- logo ------------------------- */
-.cabecalho-logo{
-    font-size: 30px; /*vai ser substituido pela logo*/
-    font-weight: bolder;
-    color: var(--laranja);
+.logo{
+    width: 60px;
+    border-radius: 100%;
     
+}
+
+.logo:hover{
+    cursor: pointer;
 }
 /* ------------------------- nav ------------------------- */
 nav{
     display: flex;
     gap: 10px;
-    font-size: 14px;
+    font-size: 16px;
     color: var( --preto);
 
 }
@@ -40,8 +43,16 @@ nav> a{
     font-weight: bolder;
 }
 
+/* nav> a:hover{
+   
+} */
+
 .icone-pesquisa{
     width: 30px;
+}
+
+.icone-pesquisa:hover{
+    cursor: pointer;
 }
 /* ------------------------- botoes ------------------------- */
 .botoes{
@@ -60,6 +71,12 @@ nav> a{
     border-radius: 10px;
 }
 
+.cavecalho-botao1:hover{
+    cursor: pointer;
+    
+    
+}
+
 .cavecalho-botao2{
     padding: 10px 12px 10px;
     background-color: var(--branco);
@@ -67,6 +84,13 @@ nav> a{
     font-size: 14px;
     border-color: var(--laranja);
     border-radius: 10px;
+    
+}
+
+
+.cavecalho-botao2:hover{
+    cursor: pointer;
+    
     
 }
 /* ========================= RESPONSIVIDADE ========================= */
