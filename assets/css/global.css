@@ -3,18 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 /* ========================= ALINHA TODAS AS DIVS COM A CLASSE CONTAINER AO CENTRO DA TELA ========================= */
 .container {
-    display: block;
     margin: 0 auto;
+    padding: 0 20px;
     width: 1280px;
 }
 
 /* ========================= ADAPTAR IMAGENS À TELA ========================= */
 img {
     max-width: 100%;
+    height: auto;
 }
 
 /* ========================= LINKS ========================= */
@@ -35,9 +37,22 @@ a {
 }
 
 /* ========================= RESPONSIVIDADE ========================= */
+
+@media (max-width: 1280px) {
+    .container {
+        width: 990px;
+    }
+}
+
 @media (max-width: 990px) {
     .container {
-        display: block;
-        width: 960px;
+        width: 720px;
+    }
+}
+
+@media (max-width: 720px) {
+    .container {
+        flex-direction: column;
+        width: 720px;
     }
 }

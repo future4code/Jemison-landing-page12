@@ -1,7 +1,8 @@
 /* ========================= HEADER ========================= */
-header{
+header {
     display: flex;
     position: fixed;
+    top: 0;
     background-color: var(--branco);
     gap: 20px;
     align-items: center;
@@ -13,31 +14,29 @@ header{
     font-family: var(--font1);
 }
 
-.cabecalho-principal{
-   display: flex;
-   align-items: center;
-   padding: 0 20px; 
-   gap: 15px;
+.cabecalho-principal {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 15px;
 }
 /* ------------------------- logo ------------------------- */
-.logo{
+.logo {
     width: 60px;
     border-radius: 100%;
-    
 }
 
-.logo:hover{
+.logo:hover {
     cursor: pointer;
 }
 /* ------------------------- nav ------------------------- */
-nav{
+nav {
     display: flex;
     gap: 10px;
     font-size: 16px;
-    color: var( --preto);
-
+    color: var(--preto);
 }
-nav> a{
+nav > a {
     text-decoration: none;
     color: var(--preto);
     font-weight: bolder;
@@ -47,50 +46,44 @@ nav> a{
    
 } */
 
-.icone-pesquisa{
+.icone-pesquisa {
     width: 30px;
 }
 
-.icone-pesquisa:hover{
+.icone-pesquisa:hover {
     cursor: pointer;
 }
 /* ------------------------- botoes ------------------------- */
-.botoes{
+.botoes {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.cavecalho-botao1{
+.cavecalho-botao1 {
     padding: 10px 12px 10px;
     background-color: var(--laranja);
-    color: var(--branco) ;
+    color: var(--branco);
     font-size: 14px;
     border: none;
     border-radius: 10px;
 }
 
-.cavecalho-botao1:hover{
+.cavecalho-botao1:hover {
     cursor: pointer;
-    
-    
 }
 
-.cavecalho-botao2{
+.cavecalho-botao2 {
     padding: 10px 12px 10px;
     background-color: var(--branco);
-    color: var(--laranja) ;
+    color: var(--laranja);
     font-size: 14px;
     border-color: var(--laranja);
     border-radius: 10px;
-    
 }
 
-
-.cavecalho-botao2:hover{
+.cavecalho-botao2:hover {
     cursor: pointer;
-    
-    
 }
 /* ========================= RESPONSIVIDADE ========================= */

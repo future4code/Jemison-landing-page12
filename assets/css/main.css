@@ -1,8 +1,13 @@
+main {
+    margin-top: 126px;
+}
+
 main .titulo {
     font-size: 48px;
+    line-height: 60px;
     font-family: var(--font2);
     font-weight: normal;
-    width: 660px;
+    max-width: 660px;
 }
 
 main .texto-laranja {
@@ -15,13 +20,13 @@ main .container {
     justify-content: space-between;
 }
 
-main .imagem-main {
+main .imagem {
     width: 536px;
 }
 
 main .botao {
     margin-top: 40px;
-    max-width: 464px;
+    max-width: 360px;
 }
 
 main .botao:hover {
@@ -30,13 +35,49 @@ main .botao:hover {
 }
 
 /* ========================= RESPONSIVIDADE ========================= */
+
+@media (max-width: 1280px) {
+    main .titulo {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    main .imagem {
+        width: 376px;
+    }
+
+    main .botao {
+        margin-top: 33px;
+    }
+}
+
 @media (max-width: 990px) {
     main .titulo {
+        max-width: 336px;
+    }
+
+    main .imagem {
         width: 336px;
     }
 
     main .botao {
-        margin-top: 40px;
+        margin-top: 24px;
+        max-width: 216px;
+    }
+}
+
+@media (max-width: 720px) {
+    main .titulo {
+        text-align: center;
+        max-width: 492px;
+    }
+
+    main .imagem {
+        width: 336px;
+    }
+
+    main .botao {
+        margin-top: 24px;
         max-width: 216px;
     }
 }

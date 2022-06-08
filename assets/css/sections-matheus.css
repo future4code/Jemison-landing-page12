@@ -5,7 +5,11 @@ section .container {
     justify-content: space-between;
 }
 
-section .imagem-section {
+section .container-texto {
+    width: 480px;
+}
+
+section .imagem {
     width: 556px;
 }
 
@@ -17,4 +21,34 @@ section .botao {
 section .botao:hover {
     color: var(--cinza-claro);
     background-color: var(--laranja-claro);
+}
+
+/* ========================= RESPONSIVIDADE ========================= */
+@media (max-width: 1280px) {
+    section .container-texto {
+        width: 400px;
+    }
+
+    section .imagem {
+        width: 376px;
+    }
+
+    section .botao {
+        margin-top: 33px;
+    }
+}
+
+@media (max-width: 990px) {
+    section .container-texto {
+        width: 336px;
+    }
+
+    section .subtitulo {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+    section .imagem {
+        width: 336px;
+    }
 }
