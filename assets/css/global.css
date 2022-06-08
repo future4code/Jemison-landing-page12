@@ -23,11 +23,16 @@ a {
 }
 
 /* ========================= BOTÕES ========================= */
+button {
+    cursor: pointer;
+}
+
 .botao {
     display: block;
     color: var(--branco);
     background-color: var(--laranja);
     font-family: var(--font1);
+    font-size: 1.25rem;
     border-radius: 10px;
     text-align: center;
     padding: 15px 0;
