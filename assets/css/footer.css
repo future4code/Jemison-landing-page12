@@ -1,1 +1,116 @@
 /* ========================= FOOTER ========================= */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+footer{
+    padding: 20px 12px;
+}
+
+/*  ===============Inicio Estilazação -informacoes-gerais  ============*/
+
+.informacoes-gerais{
+    padding: 20px 12px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 110px;
+    font-family: var(--font2);
+    border-bottom: 1px solid;
+}
+
+
+.informacoes{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.titulo{
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.icones-redes-sociais{
+    display: flex;
+    gap: 15px;
+}
+
+.icone-rede-social{
+    width: 24px;
+}
+
+.informacoes-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    font-size: 12px;
+}
+
+.informacoes-links a{
+    color: var(--preto);
+}
+
+.informacoes-links a:hover{
+    color: var(--laranja);
+}
+
+
+.informacoes-contatos{
+    display: flex;
+    flex-direction: column;
+}
+
+.contato{
+    font-size: 15px;
+    font-weight:bolder;
+    cursor: pointer;
+}
+/*  ===============Fim Estilazação - Section Informacoes-gerais  ============*/
+.informacoes-secundarias{
+
+    padding: 20px 12px;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--font2);
+    font-size: 12px;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.informacoes-secundarias a:hover{
+    color: var(--laranja);
+    /* cursor: pointer; */
+}
+.informacoes-secundarias-links{
+    display: flex;
+    gap: 15px;
+}
+.informacoes-secundarias-links a{
+    color: var(--preto);   
+}
+
+.informacoes-secundarias-links a:hover{
+    color: var(--laranja);   
+}
+
+.copy{
+    margin-top:10px;
+}
+
+
+.informacoes-secundarias-localizao{
+    display: flex;
+    font-family: var(--font2);
+    font-size: 12px;
+    gap: 30px;
+    margin-top: 20px;
+}
+
+.informacoes-secundarias-localizao a{
+    color: var(--preto);
+}
+
