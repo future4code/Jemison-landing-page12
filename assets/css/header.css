@@ -26,9 +26,6 @@ header{
     
 }
 
-.logo:hover{
-    cursor: pointer;
-}
 /* ------------------------- nav ------------------------- */
 nav{
     display: flex;
@@ -62,7 +59,7 @@ nav> a{
     gap: 20px;
 }
 
-.cavecalho-botao1{
+.cabecalho-botao1{
     padding: 10px 12px 10px;
     background-color: var(--laranja);
     color: var(--branco) ;
@@ -71,13 +68,13 @@ nav> a{
     border-radius: 10px;
 }
 
-.cavecalho-botao1:hover{
+.cabecalho-botao1:hover{
     cursor: pointer;
     
     
 }
 
-.cavecalho-botao2{
+.cabecalho-botao2{
     padding: 10px 12px 10px;
     background-color: var(--branco);
     color: var(--laranja) ;
@@ -88,7 +85,7 @@ nav> a{
 }
 
 
-.cavecalho-botao2:hover{
+.cabecalho-botao2:hover{
     cursor: pointer;
     
     
