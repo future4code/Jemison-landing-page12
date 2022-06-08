@@ -24,21 +24,6 @@
     color: var(--laranja);
 }
 
-/* ========================= SUBTITULO ========================= */
-.subtitulo {
-    font-size: 4.75rem;
-    line-height: 5rem;
-    font-family: var(--font2);
-    font-weight: normal;
-    margin-bottom: 16px;
-}
-
-.subtitulo-descricao {
-    font-size: 1.5rem;
-    line-height: 2rem;
-    font-family: var(--font1);
-}
-
 /* ========================= SPAN ========================= */
 .quebra-de-linha {
     display: block;

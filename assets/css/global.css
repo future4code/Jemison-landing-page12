@@ -35,8 +35,13 @@ button {
     font-size: 1.25rem;
     border-radius: 10px;
     text-align: center;
-    padding: 15px 0;
+    padding: 15px 30px;
     transition: 0.3s;
+}
+
+.botao:hover {
+    color: var(--cinza-claro);
+    background-color: var(--laranja-claro);
 }
 
 /* ========================= RESPONSIVIDADE ========================= */
@@ -45,4 +50,20 @@ button {
         display: block;
         width: 960px;
     }
+}
+
+/* ========================= BARRA DE ROLAGEM PERSONALIZADA ========================= */
+
+::-webkit-scrollbar {
+    height: 8px;
+    width: 8px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--laranja-claro);
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--branco);
 }

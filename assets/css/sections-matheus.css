@@ -1,26 +1,101 @@
-/* ========================= SECTION 1 ========================= */
-
+/* ========================= SECTIONS ========================= */
 section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-section .imagem-section {
+/* ========================= SECTION 1 ========================= */
+.global-account .subtitulo {
+    font-size: 4.75rem;
+    line-height: 5rem;
+    font-family: var(--font2);
+    font-weight: normal;
+    margin-bottom: 16px;
+}
+
+.global-account .subtitulo-descricao {
+    font-size: 1.5rem;
+    line-height: 2rem;
+    font-family: var(--font1);
+}
+
+.global-account .imagem-section {
     width: 456px;
 }
 
-section .botao {
+.global-account .botao {
     margin-top: 32px;
     width: 250px;
 }
 
-section .botao:hover {
-    color: var(--cinza-claro);
-    background-color: var(--laranja-claro);
+/* ========================= SECTION 2 ========================= */
+.mb-120 {
+    margin-bottom: 153px;
 }
 
-/* ========================= SECTION 2 ========================= */
-#mb-120 {
-    margin-bottom: 120px;
+/* ========================= SECTION 3 ========================= */
+
+.mt-96 {
+    margin-top: 129px;
+}
+
+.super-app .container {
+    gap: 200px;
+}
+
+.super-app .subtitulo {
+    font-size: 2.5rem;
+    line-height: 3.125rem;
+    font-family: var(--font2);
+    font-weight: 600;
+    width: 360px;
+    margin-bottom: 20px;
+}
+
+.super-app .subtitulo-descricao {
+    font-size: 18px;
+    line-height: 22px;
+    font-family: var(--font1);
+    width: 360px;
+}
+
+.super-app .botao {
+    font-size: 14px;
+    margin-top: 40px;
+    width: 360px;
+}
+
+.super-app .lista {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    list-style: none;
+    overflow-x: scroll;
+    padding-bottom: 16px;
+}
+
+.super-app .item {
+    background-color: var(--cinza-claro);
+    border-radius: 10px;
+    width: 264px;
+    height: 266px;
+}
+
+.super-app .item div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 63px;
+}
+.super-app .item img {
+    width: 51px;
+    margin: 48px 0 0 24px;
+}
+
+.super-app .item p {
+    font-size: 24px;
+    line-height: 40px;
+    font-family: var(--font2);
+    margin: 0 0 64px 32px;
 }
