@@ -1,4 +1,10 @@
 /* ========================= HEADER ========================= */
+@font-face {
+    font-family: 'icones';
+    src: url(../fonts/beach-resort/icones.ttf);
+}
+
+
 header{
     display: flex;
     position: sticky;
@@ -91,3 +97,18 @@ nav> a{
     
 }
 /* ========================= RESPONSIVIDADE ========================= */
+
+@media screen and (max-width:390px) {
+    header{
+        display: none;
+    }
+
+}
+
+
+
+@media screen and (min-width:391px){
+    .cabecalho{
+        display: none;
+    }
+}
