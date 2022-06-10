@@ -14,7 +14,6 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 
 ## Aprendizados
 
-
 #
 
 ## Melhorias que serão implementadas
