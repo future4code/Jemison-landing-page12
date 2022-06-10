@@ -1,21 +1,20 @@
 /* ========================= HEADER ========================= */
 @font-face {
     font-family: 'icones';
-    src: url(../fonts/beach-resort/icones.ttf);
+    src: url(../font/icones.ttf);
 }
 
 
 header{
     display: flex;
-    position: sticky;
+    position: fixed;
+    top: 0;
     background-color: var(--branco);
     gap: 20px;
     align-items: center;
     justify-content: space-evenly;
-    height: 85px;
-    width: 100%;
-    /* margin: 0 23px;
-    padding: 20px 12px;  */
+    height: 15vh;
+    width: 100vw;
     font-family: var(--font1);
 }
 
@@ -27,7 +26,7 @@ header{
 }
 /* ------------------------- logo ------------------------- */
 .logo{
-    width: 60px;
+    width: 5vw;
     border-radius: 100%;
     
 }
@@ -69,7 +68,7 @@ nav> a{
     padding: 10px 12px 10px;
     background-color: var(--laranja);
     color: var(--branco) ;
-    font-size: 14px;
+    font-size: 1.3rem;
     border: none;
     border-radius: 10px;
 }
@@ -84,7 +83,7 @@ nav> a{
     padding: 10px 12px 10px;
     background-color: var(--branco);
     color: var(--laranja) ;
-    font-size: 14px;
+    font-size: 1.3rem;
     border-color: var(--laranja);
     border-radius: 10px;
     
@@ -98,17 +97,21 @@ nav> a{
 }
 /* ========================= RESPONSIVIDADE ========================= */
 
-@media screen and (max-width:390px) {
-    header{
-        display: none;
-    }
+ /* @media screen and (min-width:375px) {
+   .cabecalho-principal{
+       display: none;
+   }
+   .botoes{
+       display: none;
+   }
 
-}
+   .cabecalho-mobile{
+    display: flex;
+    justify-content: space-between;
+   }
+   .cabecalho__menu--mobile i::before {
+    content: "\e904";
+    font-size: 24px;
+   }
 
-
-
-@media screen and (min-width:391px){
-    .cabecalho{
-        display: none;
-    }
-}
+}  */
