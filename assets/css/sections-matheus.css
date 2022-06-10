@@ -1,15 +1,22 @@
-/* ========================= SECTIONS ========================= */
+/* ========================= TODAS AS SECTIONS ========================= */
 section .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
+section .subtitulo {
+    font-family: var(--font2);
+}
+
+section .subtitulo-descricao {
+    font-family: var(--font1);
+}
+
 /* ========================= SECTION 1 ========================= */
 .global-account .subtitulo {
     font-size: 4.75rem;
     line-height: 5rem;
-    font-family: var(--font2);
     font-weight: normal;
     margin-bottom: 16px;
 }
@@ -17,50 +24,53 @@ section .container {
 .global-account .subtitulo-descricao {
     font-size: 1.5rem;
     line-height: 2rem;
-    font-family: var(--font1);
 }
 
-.global-account .imagem-section {
-    width: 456px;
-}
-
-.global-account .botao {
+.global-account .botao,
+.f4bank-invest .botao {
     margin-top: 32px;
     width: 250px;
 }
 
-/* ========================= SECTION 2 ========================= */
+/* ========================= MARGENS ========================= */
 .mb-120 {
     margin-bottom: 153px;
 }
-
-/* ========================= SECTION 3 ========================= */
 
 .mt-96 {
     margin-top: 129px;
 }
 
+.mt-48 {
+    margin-top: 48px;
+}
+
+/* ========================= SECTION 3 ========================= */
+
 .super-app .container {
     gap: 200px;
 }
 
-.super-app .subtitulo {
+.super-app .subtitulo,
+.f4bank-invest .subtitulo {
     font-size: 2.5rem;
     line-height: 3.125rem;
-    font-family: var(--font2);
     font-weight: 600;
-    width: 360px;
     margin-bottom: 20px;
 }
 
-.super-app .subtitulo-descricao {
+.super-app .subtitulo-descricao,
+.f4bank-invest .subtitulo-descricao {
     font-size: 18px;
     line-height: 22px;
-    font-family: var(--font1);
+}
+
+.super-app .subtitulo-descricao {
     width: 360px;
 }
 
-.super-app .botao {
+.super-app .botao,
+.f4bank-invest .botao {
     font-size: 14px;
     margin-top: 40px;
     width: 360px;
@@ -98,4 +108,17 @@ section .container {
     line-height: 40px;
     font-family: var(--font2);
     margin: 0 0 64px 32px;
+}
+
+/* ========================= SECTION 5 ========================= */
+.f4bank-invest .content {
+    width: 552px;
+}
+
+.titulo-pequeno {
+    font-family: var(--font1);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 30px;
+    color: var(--cinza-escuro);
 }

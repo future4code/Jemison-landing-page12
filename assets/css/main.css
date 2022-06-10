@@ -42,13 +42,3 @@ main .botao:hover {
 }
 
 /* ========================= RESPONSIVIDADE ========================= */
-@media (max-width: 990px) {
-    main .titulo {
-        width: 336px;
-    }
-
-    main .botao {
-        margin-top: 40px;
-        max-width: 216px;
-    }
-}

@@ -45,12 +45,6 @@ button {
 }
 
 /* ========================= RESPONSIVIDADE ========================= */
-@media (max-width: 990px) {
-    .container {
-        display: block;
-        width: 960px;
-    }
-}
 
 /* ========================= BARRA DE ROLAGEM PERSONALIZADA ========================= */
 
