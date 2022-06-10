@@ -6,22 +6,23 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% auto;
+    margin: 5% auto; 
     height: 700px;
     width: 1280px;
-    margin-bottom: 88px;
 }
 
 #passaporte > h1 {
     color: var(--laranja);
-    font-size: 800%;
+    Font-size: 800%;
     margin-bottom: 5%;
+
 }
 
 #passaporte > span {
     color: white;
-    font-size: 400%;
+    Font-size: 400%;
     margin-bottom: 5%;
+
 }
 
 #passaporte > a#button {
@@ -36,15 +37,17 @@ section#conta {
     align-items: center;
     height: 510px;
     width: 1280px;
-    margin: 5% auto;
+    margin: 5% auto; 
     font-family: var(--font2);
+
 }
 #conta > .texto {
     margin: 0 auto;
+
 }
 
 .texto > h1 {
-    font-size: 400%;
+    Font-size: 400%;
     margin-bottom: 5%;
 }
 
@@ -56,6 +59,8 @@ section#conta {
     margin: 0 0 0 auto;
 }
 /* ========================= SECTION 6 ========================= */
+
+
 
 /* ========================= SECTION 8 ========================= */
 
