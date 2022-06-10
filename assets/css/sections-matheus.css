@@ -45,6 +45,10 @@ section .subtitulo-descricao {
     margin-top: 48px;
 }
 
+.mb-72 {
+    margin-bottom: 72px;
+}
+
 /* ========================= SECTION 3 ========================= */
 
 .super-app .container {
@@ -120,5 +124,69 @@ section .subtitulo-descricao {
     font-size: 24px;
     font-weight: 600;
     line-height: 30px;
+    color: var(--cinza-escuro);
+}
+
+/* ========================= SECTION 10 ========================= */
+.colaboradores {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--laranja);
+    color: var(--branco);
+    text-align: center;
+    padding: 96px 117px;
+    width: 100%;
+}
+
+.colaboradores .titulo {
+    font-size: 32px;
+    font-family: var(--font2);
+    font-weight: 500;
+}
+
+.colaboradores .destaque {
+    font-size: 96px;
+    font-family: var(--font2);
+    font-weight: 600;
+}
+
+.colaboradores .galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    place-items: center;
+    gap: 200px;
+    padding: 40px 0;
+    font-family: var(--font1);
+    font-size: 1.125rem;
+    font-weight: 600;
+}
+
+.programador {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.colaboradores .imagem {
+    background-color: var(--laranja-claro);
+    border: 4px solid var(--branco);
+    border-radius: 50%;
+    object-fit: cover;
+    width: 150px;
+    opacity: 0.9;
+}
+
+.colaboradores .botao {
+    background-color: var(--branco);
+    color: var(--laranja);
+    font-size: 14px;
+    margin-top: 40px;
+    width: 250px;
+}
+
+.colaboradores .botao:hover {
+    background-color: var(--cinza-claro);
     color: var(--cinza-escuro);
 }
