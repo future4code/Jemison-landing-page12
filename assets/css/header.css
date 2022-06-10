@@ -1,8 +1,8 @@
-/* ========================= HEADER ========================= */
 @font-face {
     font-family: 'icones';
-    src: url(../font/icones.ttf);
+    src: url(../fonts/font/icones.ttf);
 }
+
 
 
 header{
@@ -97,21 +97,39 @@ nav> a{
 }
 /* ========================= RESPONSIVIDADE ========================= */
 
- /* @media screen and (min-width:375px) {
-   .cabecalho-principal{
-       display: none;
-   }
-   .botoes{
-       display: none;
-   }
-
-   .cabecalho-mobile{
+.menu-lateral {
     display: flex;
-    justify-content: space-between;
-   }
-   .cabecalho__menu--mobile i::before {
-    content: "\e904";
-    font-size: 24px;
-   }
+    flex-direction: column;
+    background-color: #15191C;
+    width: 75vw;
+    height: 100vh;
 
-}  */
+    position: absolute;
+    left: -100vw;
+    transition: .25s;
+}
+
+.menu-lateral--ativo {
+    left: 0;
+    transition: .25s;
+}
+
+.menu-lateral__logo {
+    width: 118px;
+    align-self: center;
+    padding: 16px;
+}
+
+.menu-lateral__link {
+    height: 64px;
+    color: #95999C;
+    padding-left: 64px;
+    display: flex;
+    align-items: center;
+}
+
+.menu-lateral__link--ativo {
+    color: #FFFFFF;
+    padding-left: 56px;
+    border-left: 8px solid #FFFFFF;
+}
