@@ -20,8 +20,7 @@ header {
 .cabecalho-principal {
     display: flex;
     align-items: center;
-    padding: 0 20px;
-    gap: 15px;
+    /* gap: 10px; */
 }
 /* ------------------------- logo ------------------------- */
 .logo {
@@ -33,7 +32,7 @@ header {
 nav {
     display: flex;
     gap: 10px;
-    font-size: 16px;
+    font-size: 18px;
     color: var(--preto);
 }
 nav > a {
@@ -42,9 +41,9 @@ nav > a {
     font-weight: bolder;
 }
 
-/* nav> a:hover{
-   
-} */
+nav> a:hover{
+   text-decoration: underline var(--laranja);
+} 
 
 .icone-pesquisa {
     width: 30px;
@@ -88,39 +87,46 @@ nav > a {
 }
 /* ========================= RESPONSIVIDADE ========================= */
 
-.menu-lateral {
-    display: flex;
-    flex-direction: column;
-    background-color: #15191c;
-    width: 75vw;
-    height: 100vh;
+@media screen and (max-width:980px) {
+    header{
+        
+        justify-content: space-around;
+        /* align-items: center; */
+        border-bottom: 1px solid rgb(248, 240, 240);
+       
+    }
+    
+    .cabecalho-principal{
+        display: none;
+    }
 
-    position: absolute;
-    left: -100vw;
-    transition: 0.25s;
+   .logo{
+    width: 50px;
+   }
+
+    .icone-pesquisa{
+        display: none;
+    } 
+
+    .cabecalho-botao1{
+        padding: 10px 10px 10px;
+        font-size: 0.9rem;
+    }
+
+    .cabecalho-botao2{
+        padding: 10px 10px 10px;
+        font-size: 0.9rem;
+    }
+
+    .cabecalho-mobile >img{
+        width: 40px;
+    }
+
 }
 
-.menu-lateral--ativo {
-    left: 0;
-    transition: 0.25s;
-}
+@media screen and (min-width:980px){
+    .cabecalho-mobile{
+        display: none;
+    }
 
-.menu-lateral__logo {
-    width: 118px;
-    align-self: center;
-    padding: 16px;
-}
-
-.menu-lateral__link {
-    height: 64px;
-    color: #95999c;
-    padding-left: 64px;
-    display: flex;
-    align-items: center;
-}
-
-.menu-lateral__link--ativo {
-    color: #ffffff;
-    padding-left: 56px;
-    border-left: 8px solid #ffffff;
 }
