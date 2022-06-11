@@ -1,11 +1,9 @@
 @font-face {
-    font-family: 'icones';
+    font-family: "icones";
     src: url(../fonts/font/icones.ttf);
 }
 
-
-
-header{
+header {
     display: flex;
     position: fixed;
     top: 0;
@@ -16,30 +14,29 @@ header{
     height: 15vh;
     width: 100vw;
     font-family: var(--font1);
+    z-index: 999;
 }
 
-.cabecalho-principal{
-   display: flex;
-   align-items: center;
-   padding: 0 20px; 
-   gap: 15px;
+.cabecalho-principal {
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 15px;
 }
 /* ------------------------- logo ------------------------- */
-.logo{
+.logo {
     width: 5vw;
     border-radius: 100%;
-    
 }
 
 /* ------------------------- nav ------------------------- */
-nav{
+nav {
     display: flex;
     gap: 10px;
     font-size: 16px;
-    color: var( --preto);
-
+    color: var(--preto);
 }
-nav> a{
+nav > a {
     text-decoration: none;
     color: var(--preto);
     font-weight: bolder;
@@ -49,69 +46,63 @@ nav> a{
    
 } */
 
-.icone-pesquisa{
+.icone-pesquisa {
     width: 30px;
 }
 
-.icone-pesquisa:hover{
+.icone-pesquisa:hover {
     cursor: pointer;
 }
 /* ------------------------- botoes ------------------------- */
-.botoes{
+.botoes {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 20px;
 }
 
-.cabecalho-botao1{
+.cabecalho-botao1 {
     padding: 10px 12px 10px;
     background-color: var(--laranja);
-    color: var(--branco) ;
+    color: var(--branco);
     font-size: 1.3rem;
     border: none;
     border-radius: 10px;
 }
 
-.cabecalho-botao1:hover{
+.cabecalho-botao1:hover {
     cursor: pointer;
-    
-    
 }
 
-.cabecalho-botao2{
+.cabecalho-botao2 {
     padding: 10px 12px 10px;
     background-color: var(--branco);
-    color: var(--laranja) ;
+    color: var(--laranja);
     font-size: 1.3rem;
     border-color: var(--laranja);
     border-radius: 10px;
-    
 }
 
-
-.cabecalho-botao2:hover{
+.cabecalho-botao2:hover {
     cursor: pointer;
-    
-    
 }
 /* ========================= RESPONSIVIDADE ========================= */
 
 .menu-lateral {
     display: flex;
     flex-direction: column;
-    background-color: #15191C;
+    background-color: #15191c;
     width: 75vw;
     height: 100vh;
 
     position: absolute;
     left: -100vw;
-    transition: .25s;
+    transition: 0.25s;
 }
 
 .menu-lateral--ativo {
     left: 0;
-    transition: .25s;
+    transition: 0.25s;
 }
 
 .menu-lateral__logo {
@@ -122,14 +113,14 @@ nav> a{
 
 .menu-lateral__link {
     height: 64px;
-    color: #95999C;
+    color: #95999c;
     padding-left: 64px;
     display: flex;
     align-items: center;
 }
 
 .menu-lateral__link--ativo {
-    color: #FFFFFF;
+    color: #ffffff;
     padding-left: 56px;
-    border-left: 8px solid #FFFFFF;
+    border-left: 8px solid #ffffff;
 }
