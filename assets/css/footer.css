@@ -117,14 +117,84 @@ footer{
 /* ========================= RESPONSIVIDADE ========================= */
 
 @media screen and (max-width:980px) {
+    .informacoes-gerais{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        gap: 10px;
+        font-size: 0.9rem;
+        border-bottom: none;
+    }
 
+    .icones-redes-sociais{
+        display: none;
+    }
+
+    .titulo{
+        font-size: 14px;
+    }
+
+    .contato{
+        font-size: 10px;
+    }
+    
+    .titulo-mobile {
+        display: none;
+    }
+
+    .informacoes-links{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .informacoes_redesociais_mobile{
+        margin-left: 12px;
+        font-family: var(--font2);
+        gap: 20px;
+        border-bottom: 1px solid;
+    }
+
+    .icones-redes-sociais-mobile{
+        display: flex;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        gap: 10px;
+        width: 35px;
+    }
+
+    .informacoes-secundarias{
+        display: flex;
+        gap: 10px;
+    }
+
+    .informacoes-secundarias-links{
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 9px;
+    }
+
+    .politica-dados{
+        font-size: 9px;
+    }
+
+    .copy{
+        font-size: 10px;
+    }
+    .informacoes-secundarias-localizao{
+        flex-wrap: wrap;
+        flex-direction: row;
+        font-size: 9px;
+    }
 
 
 }
 
-
-
 @media screen and (min-width:980px){
+    .informacoes_redesociais_mobile{
+        display: none;
+    }
 
-    
+
+
 }
