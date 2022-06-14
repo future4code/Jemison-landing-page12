@@ -31,7 +31,8 @@
 }
 
 /* ========================= SECTION 4 ========================= */
-section#conta {
+section#conta, 
+section#conta-kids { /* Section 6 */
     background-color: var(--laranja);
     display: flex;
     align-items: center;
@@ -58,11 +59,93 @@ section#conta {
 #conta > img {
     margin: 0 0 0 auto;
 }
+
 /* ========================= SECTION 6 ========================= */
 
+#conta-kids > img#celular-cartao {
+    height: 60%;
+    border-radius: 0 20px 20px 0;
+}
 
+#conta-kids > img#familia {
+    height: 60%;
+    border-radius: 20px 0 0 20px;
+}
 
+.text-conta-kids > h3 {
+    color: var(--cinza-claro);
+    font-size: 150%;
+    margin-left: 15%;
+}
+
+.text-conta-kids > h4 {
+    font-size: 200%;
+    width: 70%;
+    margin: 0 0 5% 15%;
+}
+
+.text-conta-kids > p {
+    font-size: 110%;
+    width: 80%;
+    margin: 0 0 5% 15%;
+}
+
+.text-conta-kids > p > span {
+    font-weight: bold;
+}
 /* ========================= SECTION 8 ========================= */
+
+section#cashback {
+    background-color: rgb(220, 220, 220);
+    display: flex;
+    align-items: center;
+    height: 700px;
+    width: 1280px;
+    margin: 5% auto; 
+    font-family: var(--font2);
+}
+
+section#cashback > img {
+    height: 50%;
+    border-radius: 0 20px 20px 0;
+}
+
+section#cashback > div > h1 {
+    color: gray;
+    font-size: 400%;
+    margin-left: 10%;
+}
+
+section#cashback > div > h2 {
+    font-size: 200%;
+    margin: 0 0 5% 15%;
+}
+
+section#cashback > div > p {
+    margin: 0 0 10% 15%;
+    font-size: 170%;
+    width: 80%;
+}
+
+section#cashback > div > p > span {
+    font-weight: bold;
+}
+
+section#cashback > div.text-cashback > a {
+    background-color: var(--branco);
+    border-radius: 20px;
+    padding: 2% 10%;
+    text-decoration: none;
+    margin-left: 30%; 
+    color: var(--laranja);
+    font-size: 120%;
+    
+}
+
+section#cashback > div.text-cashback > a:hover {
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+}
 
 /* ========================= SECTION 10 ========================= */
 
