@@ -24,8 +24,8 @@
 <body>
     <!-- Daniel -->
     <header>
+        <a href="#"> <img class="logo" src="assets/img/logo.png" alt=""></img></a>
         <div class="cabecalho-principal">
-            <a href="#"> <img class="logo" src="assets/img/f4bank_logo.png" alt=""></img></a>
             <nav>
                 <a href="#">Página inicial</a>
                 <a href="#">Para você</a>
@@ -39,6 +39,10 @@
 
             <button class="cabecalho-botao1"> Abra sua conta</button>
             <button class="cabecalho-botao2"> Acessar</button>
+        </div>
+
+        <div class="cabecalho-mobile">
+            <img src="assets/img/menu_mobile.png" alt="">
         </div>
     </header>
 
@@ -62,7 +66,7 @@
             </div>
 
             <img src="/assets/img/main.png" alt="imagem mostrando a quantidade atual de clientes (2 milhões)" class="imagem-main">
-        </div>
+            </div>
     </main>
 
     <!-- Douglas - Section 2 -->
@@ -165,24 +169,6 @@
         <img id="familia" src="./assets/img/jantar-em-familia-3.jpg" alt="Familia almoçando">
     </section>
 
-    <!-- Matheus -->
-    <section class="f4bank-invest mt-48 mb-72">
-        <div class="container ">
-            <div class="content">
-                <span class="titulo-pequeno">F4Bank Invest</span>
-
-                <h2 class="subtitulo">Seu dinheiro, suas <span class="quebra-de-linha">escolhas. Invista do</span> seu jeito!</h2>
-
-                <span class="subtitulo-descricao">Praticidade e segurança. Conheça a F4Bank Invest,
-                <span class="quebra-de-linha">nossa plataforma unificada de investimentos.</span></span>
-
-                <a class="botao" href="#">Começar a investir</a>
-            </div>
-
-            <img src="/assets/img/inter-invest-home-desktop.png" alt="Imagem da Ivete Sangalo segurando um celular e mostrando o aplicativo do F4Bank" class="imagem-section">
-        </div>
-    </section>
-
     <!-- Douglas - Section 8 -->
     <section id="cashback">
         <img src="./assets/img/mexendo-no-note-e-no-celular.jpg" alt="Imagem mostrando fazendo compras pelo celular ou notebook">
@@ -236,7 +222,7 @@
     <footer>
         <div class="informacoes-gerais">
             <section class="informacoes">
-                <span class="titulo">Siga o F4Bank</span>
+                <span class="titulo titulo-mobile">Siga o F4Bank</span>
                 <div class="icones-redes-sociais">
                     <img class="icone-rede-social" src="assets/img/icons8-instagram-30.png" alt="">
                     <img class="icone-rede-social" src="assets/img/icons8-linkedin-circundado-50.png" alt="">
@@ -246,7 +232,7 @@
                 </div>
             </section>
             <section class="informacoes">
-                <span class="titulo">Siga o F4Bank</span>
+                <span class="titulo">Pra você</span>
                 <div class="informacoes-links">
                     <a href="#">Conta Digital Pessoa Física</a>
                     <a href="#">Cartão de Crédito</a>
@@ -296,7 +282,17 @@
                 </div>
             </section>
         </div>
-
+        <!-- Section somente no mobile -->
+        <section class="informacoes_redesociais_mobile">
+            <span class="titulo">Siga o F4Bank</span>
+            <div class="icones-redes-sociais-mobile">
+                <img class="icone-rede-social-mobile" src="assets/img/icons8-instagram-30.png" alt="">
+                <img class="icone-rede-social-mobile" src="assets/img/icons8-facebook-24.png" alt="">
+                <img class="icone-rede-social-mobile" src="assets/img/icons8-linkedin-circundado-50.png" alt="">
+                <img class="icone-rede-social-mobile" src="assets/img/icons8-reproduzir-youtube-24.png" alt="">
+            </div>
+        </section>
+        <!-- FIM Section somente no mobile -->
         <div class="informacoes-secundarias">
             <section class="informacoes-secundarias-links">
                 <a href="#">Confira Nossas Vagas</a>
@@ -306,7 +302,7 @@
                 <a href="#">Canal de Ética</a>
                 <a href="#">Política de Segurança da Informação</a>
             </section>
-            <a> Política de Segurança da Informação para Fornecedores </a>
+            <a class="politica-dados"> Política de Segurança da Informação para Fornecedores </a>
 
             <span class="copy">© 2022 Banco F4Bank S.A. CNPJ: 00.00.000/0001-01</span>
 
@@ -315,6 +311,8 @@
                 <a href="#">São Paulo | SP - Avenida Presidente Juscelino Kubitschek, 0.00, 8º andar, CJ 00 - Vila Nova Conceição. CEP: 0000-000</a>
                 <!-- Pode ser Substituido pelas nossas Cidades/Estados -->
             </section>
+
+           
         </div>
     </footer>
 </body>
