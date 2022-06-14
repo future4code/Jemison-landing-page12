@@ -14,6 +14,12 @@ section .subtitulo-descricao {
 }
 
 /* ========================= SECTION 1 ========================= */
+.global-account .content {
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+}
+
 .global-account .subtitulo {
     font-size: 4.75rem;
     line-height: 5rem;
@@ -26,8 +32,7 @@ section .subtitulo-descricao {
     line-height: 2rem;
 }
 
-.global-account .botao,
-.f4bank-invest .botao {
+.global-account .botao {
     margin-top: 32px;
     width: 250px;
 }
@@ -37,8 +42,8 @@ section .subtitulo-descricao {
     margin-bottom: 153px;
 }
 
-.mt-96 {
-    margin-top: 129px;
+.mb-96 {
+    margin-bottom: 96px;
 }
 
 .mt-48 {
@@ -49,35 +54,37 @@ section .subtitulo-descricao {
     margin-bottom: 72px;
 }
 
-/* ========================= SECTION 3 ========================= */
+/* ========================= SECTION 2 ========================= */
 
 .super-app .container {
-    gap: 200px;
+    gap: 108px;
 }
 
-.super-app .subtitulo,
-.f4bank-invest .subtitulo {
+.super-app .content {
+    display: flex;
+    flex-direction: column;
+    width: 360px;
+}
+
+.super-app .subtitulo {
     font-size: 2.5rem;
     line-height: 3.125rem;
     font-weight: 600;
     margin-bottom: 20px;
 }
 
-.super-app .subtitulo-descricao,
-.f4bank-invest .subtitulo-descricao {
-    font-size: 18px;
-    line-height: 22px;
-}
-
 .super-app .subtitulo-descricao {
-    width: 360px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
 }
 
-.super-app .botao,
-.f4bank-invest .botao {
-    font-size: 14px;
+.super-app .botao {
     margin-top: 40px;
     width: 360px;
+}
+
+.super-app .btn-responsivo {
+    display: none;
 }
 
 .super-app .lista {
@@ -114,29 +121,18 @@ section .subtitulo-descricao {
     margin: 0 0 64px 32px;
 }
 
-/* ========================= SECTION 5 ========================= */
-.f4bank-invest .content {
-    width: 552px;
+/* ========================= SECTION 3 ========================= */
+.colaboradores-bg {
+    background-color: var(--laranja);
 }
 
-.titulo-pequeno {
-    font-family: var(--font1);
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 30px;
-    color: var(--cinza-escuro);
-}
-
-/* ========================= SECTION 10 ========================= */
 .colaboradores {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: var(--laranja);
     color: var(--branco);
     text-align: center;
     padding: 96px 117px;
-    width: 100%;
 }
 
 .colaboradores .titulo {
@@ -152,14 +148,14 @@ section .subtitulo-descricao {
 }
 
 .colaboradores .galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    place-items: center;
-    gap: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
     padding: 40px 0;
     font-family: var(--font1);
     font-size: 1.125rem;
     font-weight: 600;
+    width: 1280px;
 }
 
 .programador {
@@ -167,6 +163,7 @@ section .subtitulo-descricao {
     flex-direction: column;
     align-items: center;
     gap: 20px;
+    /* width: 67px; */
 }
 
 .colaboradores .imagem {
@@ -181,7 +178,6 @@ section .subtitulo-descricao {
 .colaboradores .botao {
     background-color: var(--branco);
     color: var(--laranja);
-    font-size: 14px;
     margin-top: 40px;
     width: 250px;
 }

@@ -1,0 +1,180 @@
+/* ========================= 1280px  ========================= */
+@media screen and (max-width: 1280px) {
+    .container,
+    main .container,
+    section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: no-wrap;
+        max-width: 960px;
+    }
+
+    /* ========================= MAIN ========================= */
+
+    main .titulo {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        width: 560px;
+    }
+
+    main .fonte-alternativa {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    main .imagem,
+    section .imagem {
+        width: 400px;
+    }
+
+    main .botao {
+        max-width: 360px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+    .global-account .content {
+        width: 400px;
+    }
+
+    .global-account .subtitulo {
+        font-size: 4.5rem;
+        line-height: 4.625rem;
+        margin-bottom: 8px;
+    }
+
+    .global-account .subtitulo-descricao {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        width: 376px;
+    }
+
+    .global-account .botao {
+        width: 150px;
+    }
+
+    /* ========================= SECTION 2 ========================= */
+    .super-app .content {
+        width: 376px;
+    }
+
+    .super-app .container {
+        flex-direction: row;
+        gap: 92px;
+    }
+
+    .super-app .subtitulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .super-app .item {
+        width: 218px;
+    }
+}
+
+/* ========================= 992px  ========================= */
+@media screen and (max-width: 1022px) {
+    .container,
+    main .container,
+    section .container {
+        width: 720px;
+    }
+
+    /* ========================= MAIN ========================= */
+
+    main .titulo {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        width: 560px;
+    }
+
+    main .fonte-alternativa {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    main .imagem,
+    section .imagem {
+        width: 326px;
+    }
+
+    main .botao {
+        max-width: 360px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+    .global-account .content {
+        width: 336px;
+    }
+
+    .global-account .subtitulo {
+        font-size: 3rem;
+        line-height: 3.75rem;
+        margin-bottom: 16px;
+    }
+
+    .global-account .botao {
+        width: 150px;
+    }
+
+    /* ========================= SECTION 2 ========================= */
+
+    .super-app .container {
+        flex-direction: column;
+        gap: 46px;
+    }
+
+    .super-app .content {
+        width: 100%;
+    }
+
+    .super-app .subtitulo {
+        font-size: 1.5rem;
+        line-height: 1.875rem;
+        width: 100%;
+    }
+
+    .super-app .btn-desktop {
+        display: none;
+    }
+
+    .super-app .btn-responsivo {
+        display: block;
+        margin-top: 0;
+    }
+
+    .super-app .lista {
+        width: 100%;
+    }
+
+    .super-app .item {
+        width: 262px;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+
+    .colaboradores .titulo {
+        font-size: 1.5rem;
+    }
+
+    .colaboradores .destaque {
+        font-size: 5rem;
+    }
+
+    .colaboradores .galeria {
+        align-items: flex-start;
+        padding: 40px 0;
+        font-size: 1rem;
+        width: 720px;
+    }
+
+    .colaboradores .botao {
+        margin-top: 0;
+    }
+}
+
+/* ========================= 768px  ========================= */
+@media screen and (max-width: 768px) {
+}
+
