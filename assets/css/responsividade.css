@@ -11,6 +11,9 @@
     }
 
     /* ========================= MAIN ========================= */
+    main {
+        margin-top: 216px;
+    }
 
     main .titulo {
         font-size: 2.75rem;
@@ -33,13 +36,17 @@
     }
 
     /* ========================= SECTION 1 ========================= */
+    section .global-account {
+        gap: 40px;
+    }
+
     .global-account .content {
         width: 400px;
     }
 
     .global-account .subtitulo {
-        font-size: 4.5rem;
-        line-height: 4.625rem;
+        font-size: 3.5rem;
+        line-height: 4rem;
         margin-bottom: 8px;
     }
 
@@ -78,20 +85,23 @@
     .container,
     main .container,
     section .container {
-        width: 720px;
+        max-width: 720px;
     }
 
     /* ========================= MAIN ========================= */
+    main {
+        margin-top: 186px;
+    }
 
     main .titulo {
-        font-size: 2.75rem;
-        line-height: 3.5rem;
-        width: 560px;
+        font-size: 2.5rem;
+        line-height: 3.25rem;
+        width: 390px;
     }
 
     main .fonte-alternativa {
-        font-size: 2.75rem;
-        line-height: 3.5rem;
+        font-size: 2.5rem;
+        line-height: 3.25rem;
     }
 
     main .imagem,
@@ -174,7 +184,87 @@
     }
 }
 
-/* ========================= 768px  ========================= */
-@media screen and (max-width: 768px) {
-}
+/* ========================= 800px  ========================= */
+@media screen and (max-width: 770px) {
+    .container,
+    main .container,
+    section .container {
+        width: 500px;
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
 
+    /* ========================= MAIN ========================= */
+    main {
+        margin-top: 126px;
+        margin-bottom: 80px;
+    }
+
+    main .imagem,
+    section .imagem {
+        width: 456px;
+    }
+
+    main .titulo,
+    section .titulo,
+    .global-account .content,
+    .global-account .subtitulo,
+    .global-account .subtitulo-descricao,
+    .super-app .content,
+    .super-app .subtitulo,
+    .super-app .lista {
+        width: 467px;
+    }
+
+    main .botao {
+        max-width: 467px;
+    }
+
+    .global-account .botao,
+    .super-app .botao,
+    .colaboradores .botao {
+        width: 467px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+
+    .global-account .subtitulo {
+        font-size: 3rem;
+        line-height: 3.75rem;
+        margin-bottom: 16px;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+
+    section .colaboradores {
+        flex-direction: column;
+        padding: 80px 0;
+        width: 467px;
+    }
+
+    .colaboradores .titulo {
+        font-size: 1rem;
+    }
+
+    .colaboradores .destaque {
+        font-size: 3.5rem;
+    }
+
+    .colaboradores .galeria {
+        padding: 0;
+        font-size: 0.85rem;
+        width: 100%;
+    }
+
+    .programador {
+        gap: 10px;
+    }
+
+    .colaboradores .imagem {
+        width: 100px;
+    }
+
+    .colaboradores .botao {
+        margin-top: 0;
+    }
+}
