@@ -1,0 +1,113 @@
+/* ========================= 1280px  ========================= */
+@media screen and (max-width: 1280px) {
+    .container,
+    main .container,
+    section .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: no-wrap;
+        max-width: 960px;
+    }
+
+    .botao {
+        font-size: 0.813rem;
+    }
+
+    /* ========================= MAIN ========================= */
+
+    main .titulo {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+        width: 560px;
+    }
+
+    main .fonte-alternativa {
+        font-size: 2.75rem;
+        line-height: 3.5rem;
+    }
+
+    main .imagem-main,
+    section .imagem-section {
+        width: 400px;
+    }
+
+    main .botao {
+        max-width: 360px;
+    }
+
+    /* ========================= SECTION 1 ========================= */
+    .global-account .content {
+        width: 400px;
+    }
+
+    .global-account .subtitulo {
+        font-size: 4.5rem;
+        line-height: 4.625rem;
+        margin-bottom: 8px;
+    }
+
+    .global-account .subtitulo-descricao {
+        font-size: 1.125rem;
+        line-height: 1.375rem;
+        width: 376px;
+    }
+
+    .global-account .botao,
+    .f4bank-invest .botao {
+        width: 150px;
+    }
+
+    /* ========================= MARGENS ========================= */
+    .mb-120 {
+        margin-bottom: 153px;
+    }
+
+    .mt-96 {
+        margin-top: 129px;
+    }
+
+    .mt-48 {
+        margin-top: 48px;
+    }
+
+    .mb-72 {
+        margin-bottom: 72px;
+    }
+
+    /* ========================= SECTION 3 ========================= */
+    .super-app .content {
+        width: 400px;
+    }
+
+    .super-app .container {
+        gap: 92px;
+    }
+
+    .super-app .subtitulo,
+    .f4bank-invest .subtitulo {
+        font-size: 2rem;
+        line-height: 2.5rem;
+    }
+
+    .super-app .botao,
+    .f4bank-invest .botao {
+        font-size: 0.813rem;
+    }
+
+    .super-app .item {
+        width: 218px;
+    }
+}
+
+/* ========================= 992px  ========================= */
+@media screen and (max-width: 992px) {
+}
+
+/* ========================= 768px  ========================= */
+@media screen and (max-width: 768px) {
+}
+
+/* ========================= 576px  ========================= */
+@media screen and (max-width: 576px) {
+}

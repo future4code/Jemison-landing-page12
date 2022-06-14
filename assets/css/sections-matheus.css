@@ -14,6 +14,10 @@ section .subtitulo-descricao {
 }
 
 /* ========================= SECTION 1 ========================= */
+.global-account .content {
+    width: 480px;
+}
+
 .global-account .subtitulo {
     font-size: 4.75rem;
     line-height: 5rem;
@@ -52,7 +56,11 @@ section .subtitulo-descricao {
 /* ========================= SECTION 3 ========================= */
 
 .super-app .container {
-    gap: 200px;
+    gap: 108px;
+}
+
+.super-app .content {
+    width: 384px;
 }
 
 .super-app .subtitulo,
@@ -61,12 +69,13 @@ section .subtitulo-descricao {
     line-height: 3.125rem;
     font-weight: 600;
     margin-bottom: 20px;
+    width: 360px;
 }
 
 .super-app .subtitulo-descricao,
 .f4bank-invest .subtitulo-descricao {
-    font-size: 18px;
-    line-height: 22px;
+    font-size: 1.125rem;
+    line-height: 1.375rem;
 }
 
 .super-app .subtitulo-descricao {
@@ -112,19 +121,6 @@ section .subtitulo-descricao {
     line-height: 40px;
     font-family: var(--font2);
     margin: 0 0 64px 32px;
-}
-
-/* ========================= SECTION 5 ========================= */
-.f4bank-invest .content {
-    width: 552px;
-}
-
-.titulo-pequeno {
-    font-family: var(--font1);
-    font-size: 24px;
-    font-weight: 600;
-    line-height: 30px;
-    color: var(--cinza-escuro);
 }
 
 /* ========================= SECTION 10 ========================= */
