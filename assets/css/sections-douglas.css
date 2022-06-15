@@ -6,21 +6,21 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 5% auto; 
-    height: 700px;
-    width: 1280px;
+    margin: 3% auto; 
+    height: 45em;
+    width: 100%;
 }
 
 #passaporte > h1 {
     color: var(--laranja);
-    Font-size: 800%;
-    margin-bottom: 5%;
+    font-size: 7em;
+    margin-bottom: 0.5%;
 
 }
 
 #passaporte > span {
     color: white;
-    Font-size: 400%;
+    font-size: 4em;
     margin-bottom: 5%;
 
 }
@@ -36,27 +36,28 @@ section#conta-kids { /* Section 6 */
     background-color: var(--laranja);
     display: flex;
     align-items: center;
-    height: 510px;
-    width: 1280px;
+    height: 45em;
+    width: 100%;
     margin: 5% auto; 
     font-family: var(--font2);
 
 }
 #conta > .texto {
-    margin: 0 auto;
+    margin-left: 5%;
 
 }
 
 .texto > h1 {
-    Font-size: 400%;
+    font-size: 5em;
     margin-bottom: 5%;
 }
 
 .texto > span {
-    font-size: 150%;
+    font-size: 1.5em;
 }
 
 #conta > img {
+    height: 80%;
     margin: 0 0 0 auto;
 }
 
@@ -64,17 +65,19 @@ section#conta-kids { /* Section 6 */
 
 #conta-kids > img#celular-cartao {
     height: 60%;
+    width: 50%;
     border-radius: 0 20px 20px 0;
 }
 
 #conta-kids > img#familia {
     height: 60%;
+    width: 80%;
     border-radius: 20px 0 0 20px;
 }
 
 .text-conta-kids > h3 {
     color: var(--cinza-claro);
-    font-size: 150%;
+    font-size: 3em;
     margin-left: 15%;
 }
 
@@ -99,8 +102,8 @@ section#cashback {
     background-color: rgb(220, 220, 220);
     display: flex;
     align-items: center;
-    height: 700px;
-    width: 1280px;
+    height: 45em;
+    width: 100%;
     margin: 5% auto; 
     font-family: var(--font2);
 }
@@ -112,12 +115,12 @@ section#cashback > img {
 
 section#cashback > div > h1 {
     color: gray;
-    font-size: 400%;
+    font-size: 5em;
     margin-left: 10%;
 }
 
 section#cashback > div > h2 {
-    font-size: 200%;
+    font-size: 2em;
     margin: 0 0 5% 15%;
 }
 

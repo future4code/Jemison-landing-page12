@@ -1,5 +1,5 @@
 /* ========================= 1280px  ========================= */
-@media screen and (max-width: 1280px) {
+@media screen and (max-width: 1280px) { /*Verificar redução da 1ª quebra*/
     .container,
     main .container,
     section .container {
@@ -128,7 +128,7 @@
         width: 150px;
     }
 
-    /* ========================= SECTION 2 ========================= */
+    /* ========================= SECTION 3 ========================= */
 
     .super-app .container {
         flex-direction: column;
@@ -268,3 +268,104 @@
         margin-top: 0;
     }
 }
+
+
+/* ========================= SECTIONS 2, 4, 6 e 8 - Douglas ========================= */
+
+
+@media screen and (max-width: 1280px) { /*Verificar redução da 1ª quebra*/
+/* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        width: 88%;
+        
+    }
+
+    #passaporte > h1 {
+        color: var(--laranja);
+        Font-size: 600%;
+        margin-bottom: 1%;
+
+    }
+
+    #passaporte > span {
+        color: white;
+        Font-size: 300%;
+        margin-bottom: 5%;
+
+    }
+
+    #passaporte > a#button {
+        max-height: 10px;
+        max-width: 300px;
+    }
+
+/* ========================= SECTION 4 - Douglas ========================= */
+
+    section#conta, 
+    section#conta-kids { /* Section 6 */
+        background-color: var(--laranja);
+        display: flex;
+        align-items: center;
+        height: 510px;
+        width: 1280px;
+        margin: 5% auto; 
+        font-family: var(--font2);
+
+    }
+    #conta > .texto {
+        margin: 0 auto;
+
+    }
+
+    .texto > h1 {
+        Font-size: 400%;
+        margin-bottom: 5%;
+    }
+
+    .texto > span {
+        font-size: 150%;
+    }
+
+    #conta > img {
+        margin: 0 0 0 auto;
+    }
+
+
+/* ========================= SECTION 6 - Douglas ========================= */
+
+
+/* ========================= SECTION 8 - Douglas ========================= */
+
+}
+@media screen and (max-width: 1022px) {
+/* ========================= SECTION 2 - Douglas ========================= */
+
+
+/* ========================= SECTION 4 - Douglas ========================= */
+
+
+/* ========================= SECTION 6 - Douglas ========================= */
+
+
+/* ========================= SECTION 8 - Douglas ========================= */
+
+}
+@media screen and (max-width: 770px) {
+/* ========================= SECTION 2 - Douglas ========================= */
+
+
+/* ========================= SECTION 4 - Douglas ========================= */
+
+
+/* ========================= SECTION 6 - Douglas ========================= */
+
+
+/* ========================= SECTION 8 - Douglas ========================= */
+
+}
+
+
+
+
+
+
