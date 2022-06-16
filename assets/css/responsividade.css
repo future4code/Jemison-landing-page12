@@ -271,25 +271,114 @@
 
 
 /* ========================= SECTIONS 2, 4, 6 e 8 - Douglas ========================= */
-
-
-@media screen and (max-width: 1280px) { /*Verificar redução da 1ª quebra*/
+@media screen and (min-width: 1700px) {
 /* ========================= SECTION 2 - Douglas ========================= */
-    #passaporte {
-        width: 88%;
-        
+    #passaporte > .botao-passaporte {
+        font-size: 100%;
+        max-height: 10%;
+        max-width: 15%;
     }
 
+/* ========================= SECTION 4 - Douglas ========================= */
+
+    #conta > img {
+        margin: 0 auto 0 0;
+    }
+
+    #conta > .texto {
+        margin: 0 0 0 auto;
+    
+    }
+    
+    .texto > h1 {
+        margin: 0 0 0 auto;
+    }
+    
+    .texto > span {
+        margin: 0 0 0 auto;
+    }
+/* ========================= SECTION 6 - Douglas ========================= */
+    section#conta-kids,
+    section#cashback { /* Section 6 */
+        margin: 1% auto; 
+    }
+
+    #conta-kids > img#celular-cartao {
+        margin-left: 8%;
+        max-height: 600px;
+        max-width: 400px;
+        border-radius: 20px;
+    }
+
+    #conta-kids > img#familia {
+        display: none;
+    }
+
+    .text-conta-kids > h3 {
+        color: var(--cinza-claro);
+        font-size: 3em;
+        margin-left: 10%;
+    }
+
+    .text-conta-kids > h4 {
+        font-size: 200%;
+        width: 70%;
+        margin-left: 10%;
+    }
+
+    .text-conta-kids > p {
+        font-size: 120%;
+        width: 50%;
+        margin-left: 10%;
+    }
+
+    .text-conta-kids > p > span {
+        font-weight: bold;
+    }
+
+/* ========================= SECTION 7 - Douglas ========================= */
+
+    section#cashback > img {
+        border-radius: 20px;
+        height: 50%
+
+    }
+
+
+    section#cashback > div > h1 {
+        color: gray;
+        font-size: 3em;
+        margin-left: 16%;
+    }
+
+    section#cashback > div > h2 {
+        font-size: 200%;
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    section#cashback > div > p {
+        margin: 0 0 10% 16%;
+        font-size: 120%;
+        width: 40%;
+    }
+
+    section#cashback > div > a {
+        padding: 1% 10%;
+    }
+    }
+
+@media screen and (max-width: 1200px) { /*Verificar redução da 1ª quebra*/
+/* ========================= SECTION 2 - Douglas ========================= */
     #passaporte > h1 {
-        color: var(--laranja);
-        Font-size: 600%;
+        Font-size: 4em;
         margin-bottom: 1%;
 
     }
 
     #passaporte > span {
         color: white;
-        Font-size: 300%;
+        Font-size: 3em;
         margin-bottom: 5%;
 
     }
@@ -299,47 +388,34 @@
         max-width: 300px;
     }
 
+/* ========================= SECTION 6 - Douglas ========================= */
+
+
+/* ========================= SECTION 8 - Douglas ========================= */
+
+}
+
+@media screen and (max-width: 1150px) {
 /* ========================= SECTION 4 - Douglas ========================= */
+    
 
-    section#conta, 
-    section#conta-kids { /* Section 6 */
-        background-color: var(--laranja);
-        display: flex;
-        align-items: center;
-        height: 510px;
-        width: 1280px;
-        margin: 5% auto; 
-        font-family: var(--font2);
-
-    }
-    #conta > .texto {
-        margin: 0 auto;
-
+}
+@media screen and (max-width: 900px) {
+/* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        height: 30em;
     }
 
-    .texto > h1 {
-        Font-size: 400%;
+    #passaporte > h1 {
+        Font-size: 3.5em;
+    }
+
+    #passaporte > span {
+        color: white;
+        Font-size: 2.5em;
         margin-bottom: 5%;
+
     }
-
-    .texto > span {
-        font-size: 150%;
-    }
-
-    #conta > img {
-        margin: 0 0 0 auto;
-    }
-
-
-/* ========================= SECTION 6 - Douglas ========================= */
-
-
-/* ========================= SECTION 8 - Douglas ========================= */
-
-}
-@media screen and (max-width: 1022px) {
-/* ========================= SECTION 2 - Douglas ========================= */
-
 
 /* ========================= SECTION 4 - Douglas ========================= */
 
@@ -350,9 +426,26 @@
 /* ========================= SECTION 8 - Douglas ========================= */
 
 }
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 730px) {
 /* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        height: 20em;
+    }
 
+    #passaporte > h1 {
+        Font-size: 2em;
+    }
+
+    #passaporte > span {
+        color: white;
+        Font-size: 1.5em;
+        margin-bottom: 3%;
+
+    }
+
+    #passaporte > .botao-passaporte {
+        height: 6%;
+    }
 
 /* ========================= SECTION 4 - Douglas ========================= */
 
@@ -364,6 +457,23 @@
 
 }
 
+@media screen and (max-width: 440px) {
+/* ========================= SECTION 2 - Douglas ========================= */
+    #passaporte {
+        height: 15em;
+    }
+    
+    #passaporte > span {
+        color: white;
+        Font-size: 1em;
+        margin-bottom: 3%;
+    
+    }
+
+    #passaporte > .botao-passaporte {
+        height: 8%;
+    }
+}
 
 
 

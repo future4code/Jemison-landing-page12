@@ -1,7 +1,9 @@
 /* ========================= SECTION 2 ========================= */
+
 #passaporte {
-    background-image: url(../img/imagem-secao2.jpg);
+    background: rgba(0, 0, 0, 0.7) url(../img/imagem-secao2.jpg);
     background-size: cover;
+    background-blend-mode: darken;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -13,29 +15,41 @@
 
 #passaporte > h1 {
     color: var(--laranja);
-    font-size: 7em;
-    margin-bottom: 0.5%;
-
+    font-size: 6em;
 }
 
 #passaporte > span {
     color: white;
     font-size: 4em;
-    margin-bottom: 5%;
+    margin-bottom: 2%;
 
 }
 
-#passaporte > a#button {
-    max-height: 10px;
-    max-width: 300px;
+#passaporte > .botao-passaporte {
+    background-color: var(--laranja);
+    border-color: transparent;
+    -webkit-transition: all 150ms ease-in-out;
+    color: var(--branco);
+    align-items: center;
+    border-radius: 10px;
+    height: 5%;
+    width: 30%;
 }
+
+#passaporte > .botao-passaporte:hover {
+    background-color: var(--cinza-claro);
+    color: var(--cinza-escuro);
+}
+
 
 /* ========================= SECTION 4 ========================= */
 section#conta, 
-section#conta-kids { /* Section 6 */
+section#conta-kids, /* Section 6 */
+section#cashback /* Section 7 */ { 
     background-color: var(--laranja);
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 45em;
     width: 100%;
     margin: 5% auto; 
@@ -43,22 +57,23 @@ section#conta-kids { /* Section 6 */
 
 }
 #conta > .texto {
-    margin-left: 5%;
+    margin: 0 auto;
 
 }
 
 .texto > h1 {
     font-size: 5em;
-    margin-bottom: 5%;
+    margin: 0 auto;
 }
 
 .texto > span {
     font-size: 1.5em;
+    margin: 0 auto;
 }
 
 #conta > img {
     height: 80%;
-    margin: 0 0 0 auto;
+    margin: 0 auto;
 }
 
 /* ========================= SECTION 6 ========================= */
@@ -96,22 +111,20 @@ section#conta-kids { /* Section 6 */
 .text-conta-kids > p > span {
     font-weight: bold;
 }
-/* ========================= SECTION 8 ========================= */
+/* ========================= SECTION 7 ========================= */
 
 section#cashback {
     background-color: rgb(220, 220, 220);
-    display: flex;
-    align-items: center;
-    height: 45em;
-    width: 100%;
-    margin: 5% auto; 
-    font-family: var(--font2);
+    max-width: 100%;
+    justify-content: center;
+
 }
 
 section#cashback > img {
-    height: 50%;
-    border-radius: 0 20px 20px 0;
+    height: 60%;
+    border-radius: 20px 0 0 20px;
 }
+
 
 section#cashback > div > h1 {
     color: gray;
@@ -134,7 +147,7 @@ section#cashback > div > p > span {
     font-weight: bold;
 }
 
-section#cashback > div.text-cashback > a {
+section#cashback > div > a {
     background-color: var(--branco);
     border-radius: 20px;
     padding: 2% 10%;
@@ -145,11 +158,7 @@ section#cashback > div.text-cashback > a {
     
 }
 
-section#cashback > div.text-cashback > a:hover {
+section#cashback > div > a:hover {
     background-color: var(--cinza-claro);
     color: var(--cinza-escuro);
 }
-
-/* ========================= SECTION 10 ========================= */
-
-/* ========================= RESPONSIVIDADE ========================= */
