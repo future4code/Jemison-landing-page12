@@ -20,7 +20,6 @@ header {
 .cabecalho-principal {
     display: flex;
     align-items: center;
-    /* gap: 10px; */
 }
 /* ------------------------- logo ------------------------- */
 .logo {
@@ -87,45 +86,87 @@ nav> a:hover{
 }
 /* ========================= RESPONSIVIDADE ========================= */
 
-@media screen and (max-width:980px) {
-    header{
-        
-        justify-content: space-around;
-        /* align-items: center; */
-        border-bottom: 1px solid rgb(248, 240, 240);
-       
-    }
+@media screen and (max-width:960px) {
+   header{
+    display: flex;
+    position: initial;
+    flex-direction: column;
+    gap: 0px;
+    margin-top: 15px;
     
-    .cabecalho-principal{
-        display: none;
-    }
-
-   .logo{
-    width: 50px;
    }
 
-    .icone-pesquisa{
+    .cabecalho-principal{
         display: none;
-    } 
+   }
 
-    .cabecalho-botao1{
-        padding: 10px 10px 10px;
+   .botoes{
+        display: none;
+   }
+
+   .logo{
+        display: none;
+   }
+   .cabecalho-mobile{
+        display: flex;
+        width: 100vw;
+        height: 15vh;
+   }
+   .logo-mobile{
+        font-size: 1.8rem;
+        font-family: var(--font3);
+        color: var(--preto);
+   }
+   .logo-botoes-mobile{
+        display: flex;
+        padding: 2rem;
+        width: 100vw;
+        justify-content: space-between;
+        align-items: center;
+   }
+
+   .logo-botoes-mobile a{
+        text-decoration: none;
+   }
+   .cabecalho-botao1{
+        width: 25vh;
+        padding: 10px 9px 9px;
         font-size: 0.9rem;
-    }
+   }
 
-    .cabecalho-botao2{
-        padding: 10px 10px 10px;
+   .cabecalho-botao2{
+        width: 25vh;
+        padding: 10px 9px 9px;
         font-size: 0.9rem;
-    }
+   }
 
-    .cabecalho-mobile >img{
-        width: 40px;
-    }
+
+   .menu-mobile{
+        display: flex; 
+        width: 100vw;
+        padding: 0px 0px 10px;
+        justify-content: center;
+        border-bottom: 1px solid rgba(221, 217, 221, 0.867);
+   }
+
+   .icone-mobile{
+        width: 50%;
+        margin-left: 1.0rem;
+   }
+
+   .icone-primeiro{
+     border-bottom: 2px solid var(--laranja);
+   }
+
 
 }
 
-@media screen and (min-width:980px){
+@media screen and (min-width:959px){
     .cabecalho-mobile{
+        display: none;
+    }
+
+    .menu-mobile{
         display: none;
     }
 
