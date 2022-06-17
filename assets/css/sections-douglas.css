@@ -56,24 +56,33 @@ section#cashback /* Section 7 */ {
     font-family: var(--font2);
 
 }
-#conta > .texto {
+#conta > #texto {
     margin: 0 auto;
-
+    width: 50%;
 }
 
-.texto > h1 {
+#conta > #texto > h1 {
     font-size: 5em;
     margin: 0 auto;
 }
 
-.texto > span {
+#texto > p {
     font-size: 1.5em;
     margin: 0 auto;
 }
 
-#conta > img {
+#conta > img#image1 {
     height: 80%;
     margin: 0 auto;
+}
+
+#conta > div#cartao-daniel,
+div#cartao-douglas,
+div#cartao-matheus,
+img#image2,
+img#image3,
+img#image4 {
+    display: none;
 }
 
 /* ========================= SECTION 6 ========================= */

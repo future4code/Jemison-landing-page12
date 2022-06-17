@@ -271,7 +271,7 @@
 
 
 /* ========================= SECTIONS 2, 4, 6 e 8 - Douglas ========================= */
-@media screen and (min-width: 1700px) {
+@media screen and (min-width: 1600px) {
 /* ========================= SECTION 2 - Douglas ========================= */
     #passaporte > .botao-passaporte {
         font-size: 100%;
@@ -281,20 +281,17 @@
 
 /* ========================= SECTION 4 - Douglas ========================= */
 
-    #conta > img {
+    #conta > img#image1 {
         margin: 0 auto 0 0;
     }
 
-    #conta > .texto {
+    #conta > #texto {
         margin: 0 0 0 auto;
-    
+        max-width: 25%;
+        
     }
     
-    .texto > h1 {
-        margin: 0 0 0 auto;
-    }
-    
-    .texto > span {
+    #texto > h1 {
         margin: 0 0 0 auto;
     }
 /* ========================= SECTION 6 - Douglas ========================= */
@@ -366,7 +363,7 @@
     section#cashback > div > a {
         padding: 1% 10%;
     }
-    }
+}
 
 @media screen and (max-width: 1200px) { /*Verificar redução da 1ª quebra*/
 /* ========================= SECTION 2 - Douglas ========================= */
@@ -394,12 +391,67 @@
 /* ========================= SECTION 8 - Douglas ========================= */
 
 }
-
 @media screen and (max-width: 1150px) {
 /* ========================= SECTION 4 - Douglas ========================= */
+    section#conta > img#image1,
+    div#texto {
+        display: none;
+    }
+
+    section#conta {
+        height: 40em;
+    }
+    section#conta > img#image2 {
+        display: flex;
+        height: 50%;
+    }
+
+    section#conta > div#cartao-daniel {
+        display: block;
+        margin-left: 8%;
+        max-height: 500px;
+        width: 45%;
+        border-radius: 20px;
+    }
+
+    section#conta > div#cartao-daniel > img {
+        display: flex;
+        margin: 0 0 10% 5%;
+        height: 250px;
+    }
+
     
+    section#conta > div#cartao-daniel > h1 {
+        font-size: 2em;
+        margin: 0 auto ;
+    }
+    
+    .texto > p {
+        font-size: 0.8em;
+        margin: 0 auto;
+    }
 
 }
+
+@media screen and (max-width: 950px) {
+/* ========================= SECTION 4 - Douglas ========================= */
+    section#conta > div#cartao-daniel {
+        display: none;
+    }
+
+    section#conta > img#image2 {
+        display: none;
+    }
+
+    section#conta {
+        height: 60em;
+    }
+
+    section#conta > img#image3 {
+        display: flex;
+    }
+}
+
 @media screen and (max-width: 900px) {
 /* ========================= SECTION 2 - Douglas ========================= */
     #passaporte {
