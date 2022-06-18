@@ -30,7 +30,7 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
   
   <div>
     <h4>Section - Sobre</h4>
-    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174417449-d7ec3528-6737-4826-9421-c211f7a18d6d.png" alt="Print da tela da Section Sobre"/>
+    <img align="left" width="550" src="https://user-images.githubusercontent.com/70871620/174417449-d7ec3528-6737-4826-9421-c211f7a18d6d.png" alt="Print da tela da Section Sobre"/>
      <img width="250" src="https://user-images.githubusercontent.com/70871620/174419882-dd97a9af-fece-4949-b176-629942a730d2.png" alt="Print da tela do Desktop"/>
   </div>  
 
