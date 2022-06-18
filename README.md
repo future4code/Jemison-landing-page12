@@ -16,95 +16,95 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 
 ###
 
-<ul>
-  <li>
-    <p>Header - Menu principal</p>
+<div>
+  <div>
+    <h4>Header - Menu principal</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174417094-5fe05bc1-09ec-4025-a96b-07a2a13ec73d.png" alt="Print da tela do Desktop"/>
-  </li>
+  </div>
   
 <br clear="both">
 <br clear="both">
  
   
-  <li>
-    <p>Section - Sobre</p>
+  <div>
+    <h4>Section - Sobre</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174417449-d7ec3528-6737-4826-9421-c211f7a18d6d.png" alt="Print da tela da Section Sobre"/>
-  </li>
+  </div>
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - F4Bank no mundo</p>
+  <div>
+    <h4>Section - F4Bank no mundo</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174417585-b48d7e40-70f9-491a-a2f0-be920b2472b9.png" alt="Print da tela da Section F4Bank no mundo"/>
-  </li>
+  </div>
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - Lista Vip</p>
+  <div>
+    <h4>Section - Lista Vip</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174418727-a2063bac-f3a3-4574-b446-1a4e8b13f950.png" alt="Print da tela da Section Lista Vip"/>
-  </li>
+  </div>
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - Conta digital</p>
+  <div>
+    <h4>Section - Conta digital</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419088-74e656c5-2069-47c2-8bc8-038b845e2ecd.png" alt="Print da tela da Section Conta digital"/>
-  </li>
+  </div>
 
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - Super App</p>
+  <div>
+    <h4>Section - Super App</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419104-875bd0fa-3352-48a1-aae4-6c5461f0163c.png" alt="Print da tela da Section Super App"/>
-  </li> 
+  </div> 
 
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - Conta 100% digital sem taxas</p>
+  <div>
+    <h4>Section - Conta 100% digital sem taxas</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419182-5e699fed-b2c4-437f-b16c-024b4fc55dc4.png" alt="Print da tela da Section Conta 100% digital sem taxas"/>
-  </li>
+  </div>
 
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - Cashback</p>
+  <div>
+    <h4>Section - Cashback</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419199-07ff2e40-8357-486b-9364-748b7470fb4d.png" alt="Print da tela da Section Cashback"/>
-  </li>
+  </div>
 
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Section - Colaboradores</p>
+  <div>
+    <h4>Section - Colaboradores</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419209-2d855964-e0b3-447e-bf1f-4a44b37e0a66.png" alt="Print da tela da Section Colaboradores"/>
-  </li>
+  </div>
 
 
 <br clear="both">
 <br clear="both">
   
-  <li>
-    <p>Footer - Contato e informações</p>
+  <div>
+    <h4>Footer - Contato e informações</h4>
     <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419223-a5e2c40d-5559-4944-8be9-cb53e30b0f30.png" alt="Print da tela da Section Contato e informações"/>
-  </li>
+  </div>
 
 
 <br clear="both">
 <br clear="both">
          
-</ul>
+</div>
   
 ###
 
@@ -114,7 +114,15 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 
 ###
 
-<p align="left">HTML | CSS</p>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>Git</li>
+<li>CSS Grid Layout</li>
+<li>CSS Flexbox</li>
+<li>Layout Responsivo</li>
+</ul>
+ 
 
 ###
 
