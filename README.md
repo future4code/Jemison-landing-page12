@@ -41,7 +41,7 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
   
   <div>
     <h4>Section - F4Bank no mundo</h4>
-    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174417585-b48d7e40-70f9-491a-a2f0-be920b2472b9.png" alt="Print da tela da Section F4Bank no mundo"/>
+    <img align="left" width="550" src="https://user-images.githubusercontent.com/70871620/174417585-b48d7e40-70f9-491a-a2f0-be920b2472b9.png" alt="Print da tela da Section F4Bank no mundo"/>
   </div>
 
 <br clear="both">
