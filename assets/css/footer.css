@@ -155,12 +155,9 @@ footer{
         border-bottom: 1px solid;
     }
 
-    .icones-redes-sociais-mobile{
-        display: flex;
+    .icone-rede-social-mobile{
         margin-top: 10px;
-        margin-bottom: 10px;
-        gap: 10px;
-        width: 35px;
+        width: 30px;
     }
 
     .informacoes-secundarias{
