@@ -19,8 +19,8 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 <div>
   <div>
     <h4>Header - Menu principal</h4>
-    <img align="left" height="60" src="https://user-images.githubusercontent.com/70871620/174417094-5fe05bc1-09ec-4025-a96b-07a2a13ec73d.png" alt="Print da tela do Desktop"/>
-    <img height="60" src="https://user-images.githubusercontent.com/70871620/174419715-513f902e-3190-41b0-8384-3bda66e3a4df.png" alt="Print da tela do Desktop"/>
+    <img align="left" width="550" src="https://user-images.githubusercontent.com/70871620/174417094-5fe05bc1-09ec-4025-a96b-07a2a13ec73d.png" alt="Print da tela do Desktop"/>
+    <img width="250" src="https://user-images.githubusercontent.com/70871620/174419715-513f902e-3190-41b0-8384-3bda66e3a4df.png" alt="Print da tela do Desktop"/>
   </div>  
 
   
