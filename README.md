@@ -12,28 +12,7 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 
 <br clear="both">
 
-<h2 align="left">Imagens do projeto</h2>
-
-###
-
-<div align="center">
-
-<img align="left" height="335" src="https://user-images.githubusercontent.com/70871620/174408093-9ad9e41c-68ef-42da-a219-b21013fd9ead.png"  />
-
-###
-
-<img align="right" height="335" src="https://user-images.githubusercontent.com/70871620/174408479-5b57b71d-a604-4715-a95e-e67f37eb36e1.png"/>
-
-</div>
-  
-###
-
-<br clear="both">
-<br clear="both">
-<br clear="both">
-
-
-<h2 align="left">Seções</h2>
+<h2 align="left">Seções (com imagens do projeto)</h2>
 
 ###
 
@@ -91,32 +70,36 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
   
   <li>
     <p>Section - Conta 100% digital sem taxas</p>
-    <img align="left" width="600" src="" alt="Print da tela da Section Conta 100% digital sem taxas"/>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419182-5e699fed-b2c4-437f-b16c-024b4fc55dc4.png" alt="Print da tela da Section Conta 100% digital sem taxas"/>
   </li>
+
 
 <br clear="both">
 <br clear="both">
   
   <li>
     <p>Section - Cashback</p>
-    <img align="left" width="600" src="" alt="Print da tela da Section Cashback"/>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419199-07ff2e40-8357-486b-9364-748b7470fb4d.png" alt="Print da tela da Section Cashback"/>
   </li>
+
 
 <br clear="both">
 <br clear="both">
   
   <li>
     <p>Section - Colaboradores</p>
-    <img align="left" width="600" src="" alt="Print da tela da Section Colaboradores"/>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419209-2d855964-e0b3-447e-bf1f-4a44b37e0a66.png" alt="Print da tela da Section Colaboradores"/>
   </li>
+
 
 <br clear="both">
 <br clear="both">
   
   <li>
     <p>Footer - Contato e informações</p>
-    <img align="left" width="600" src="" alt="Print da tela da Section Contato e informações"/>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419223-a5e2c40d-5559-4944-8be9-cb53e30b0f30.png" alt="Print da tela da Section Contato e informações"/>
   </li>
+
 
 <br clear="both">
 <br clear="both">
