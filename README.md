@@ -26,7 +26,6 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 
 </div>
   
-  
 ###
 
 <br clear="both">
@@ -64,13 +63,64 @@ Projeto criado com o intuito de apresentar informações sobre a empresa, produt
 <br clear="both">
 <br clear="both">
   
-<li>Section - Lista Vip</li>
-<li>Section - Conta digital</li>
-<li>Section - Super App</li>
-<li>Section - Conta 100% digital sem taxas</li>
-<li>Section - Cashback</li>
-<li>Section - Colaboradores</li>
-<li>Footer - Contato e informações</li>
+  <li>
+    <p>Section - Lista Vip</p>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174418727-a2063bac-f3a3-4574-b446-1a4e8b13f950.png" alt="Print da tela da Section Lista Vip"/>
+  </li>
+
+<br clear="both">
+<br clear="both">
+  
+  <li>
+    <p>Section - Conta digital</p>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419088-74e656c5-2069-47c2-8bc8-038b845e2ecd.png" alt="Print da tela da Section Conta digital"/>
+  </li>
+
+
+<br clear="both">
+<br clear="both">
+  
+  <li>
+    <p>Section - Super App</p>
+    <img align="left" width="600" src="https://user-images.githubusercontent.com/70871620/174419104-875bd0fa-3352-48a1-aae4-6c5461f0163c.png" alt="Print da tela da Section Super App"/>
+  </li> 
+
+
+<br clear="both">
+<br clear="both">
+  
+  <li>
+    <p>Section - Conta 100% digital sem taxas</p>
+    <img align="left" width="600" src="" alt="Print da tela da Section Conta 100% digital sem taxas"/>
+  </li>
+
+<br clear="both">
+<br clear="both">
+  
+  <li>
+    <p>Section - Cashback</p>
+    <img align="left" width="600" src="" alt="Print da tela da Section Cashback"/>
+  </li>
+
+<br clear="both">
+<br clear="both">
+  
+  <li>
+    <p>Section - Colaboradores</p>
+    <img align="left" width="600" src="" alt="Print da tela da Section Colaboradores"/>
+  </li>
+
+<br clear="both">
+<br clear="both">
+  
+  <li>
+    <p>Footer - Contato e informações</p>
+    <img align="left" width="600" src="" alt="Print da tela da Section Contato e informações"/>
+  </li>
+
+<br clear="both">
+<br clear="both">
+         
 </ul>
   
 ###
