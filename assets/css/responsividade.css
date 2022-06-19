@@ -274,7 +274,7 @@
 }
 
 
-/* ========================= SECTIONS 2, 4, 6 e 8 - Douglas ========================= */
+/* ========================= SECTIONS 2, 4, 6 e 7 - Douglas ========================= */
 @media screen and (min-width: 1600px) {
 
     /* ========================= SECTION 2 - Douglas ========================= */
@@ -307,7 +307,7 @@
     }
 
     #conta-kids>img#celular-cartao {
-        margin-left: 20%;
+        margin-left: 10%;
         max-height: 500px;
         max-width: 400px;
         border-radius: 20px;
@@ -378,7 +378,7 @@
 
 @media screen and (max-width: 1200px) {
 
-/* ========================= SECTION 2 - Douglas ========================= */
+    /* ========================= SECTION 2 - Douglas ========================= */
     #passaporte>h1 {
         Font-size: 4em;
         margin-bottom: 1%;
@@ -396,9 +396,6 @@
         max-height: 10px;
         max-width: 300px;
     }
-
-    /* ========================= SECTION 8 - Douglas ========================= */
-
 }
 
 @media screen and (max-width: 1150px) {
@@ -488,6 +485,29 @@
 
     }
 
+    /* ========================= SECTION 7 - Douglas ========================= */
+    section#cashback>img {
+        height: 50%;
+    }
+    
+    
+    section#cashback>div>h1 {
+        color: gray;
+        font-size: 2.5em;
+        margin-left: 10%;
+    }
+    
+    section#cashback>div>h2 {
+        font-size: 1.2em;
+        margin: 0 0 5% 15%;
+    }
+    
+    section#cashback>div>p {
+        margin: 0 0 10% 15%;
+        font-size: 1em;
+        width: 80%;
+    }
+
 }
 
 @media screen and (max-width: 900px) {
@@ -510,8 +530,8 @@
 
 }
 
-@media screen and (max-width: 850px) {
-/* ========================= SECTION 6 - Douglas ========================= */
+@media screen and (max-width: 860px) {
+    /* ========================= SECTION 6 - Douglas ========================= */
     #conta-kids>img#celular-cartao {
         display: none;
     }
@@ -560,7 +580,6 @@
     }
 
     #passaporte>span {
-        color: white;
         Font-size: 1.5em;
         margin-bottom: 3%;
 
@@ -569,12 +588,44 @@
     #passaporte>.botao-passaporte {
         height: 6%;
     }
+}
 
-    /* ========================= SECTION 8 - Douglas ========================= */
-
+@media screen and (max-width: 630px) {
+    /* ========================= SECTION 7 - Douglas ========================= */
+    section#cashback {
+        height: 30em;
+    }
+    
+    section#cashback>img {
+        height: 50%;
+        margin: 0 5% 0 0;
+    }
+    
+    
+    section#cashback>div>h1 {
+        font-size: 2em;
+        margin-left: 5%;
+    }
+    
+    section#cashback>div>h2 {
+        font-size: 1em;
+        margin: 0 0 5% 10%;
+    }
+    
+    section#cashback>div>p {
+        margin: 0 0 10% 10%;
+        font-size: 100%;
+    }
+    
+    section#cashback>div>a {
+        padding: 1% 5%;
+        margin-left: 30%;
+        font-size: 100%;
+    }
 }
 
 @media screen and (max-width: 500px) {
+    /* ========================= SECTION 6 - Douglas ========================= */
     #conta-kids>img#familia2 {
         display: none;
     }
@@ -613,14 +664,14 @@
         margin: 0 auto;
     }
 
-    .text-conta-kids > a > img {
+    .text-conta-kids>a>img {
         margin: 30% auto 0 auto;
         height: 50px;
     }
 
 }
 
-@media screen and (max-width: 440px) {
+@media screen and (max-width: 460px) {
 
     /* ========================= SECTION 2 - Douglas ========================= */
     #passaporte {
@@ -628,7 +679,6 @@
     }
 
     #passaporte>span {
-        color: white;
         Font-size: 1em;
         margin-bottom: 3%;
 
@@ -637,7 +687,6 @@
     #passaporte>.botao-passaporte {
         height: 8%;
     }
-
 
     /* ========================= SECTION 4 - Douglas ========================= */
     section#conta>div#cartao-matheus {
@@ -677,5 +726,39 @@
     section#conta>div#cartao-douglas>h1 {
         margin: 10% auto 2% auto;
     }
+
+    /* ========================= SECTION 7 - Douglas ========================= */
+    section#cashback {
+        height: 25em;
+    }
+    
+    section#cashback>img {
+        height: 40%;
+        margin: 0 5% 0 0;
+    }
+    
+    section#cashback>div>h1 {
+        font-size: 1em;
+        margin-left: 5%;
+    }
+    
+    section#cashback>div>h2 {
+        font-size: 0.8em;
+        margin: 0 0 5% 10%;
+    }
+    
+    section#cashback>div>p {
+        margin: 10% 0 40% 10%;
+        font-size: 50%;
+    }
+
+    section#cashback>div>a {
+        font-size: 60%;
+    }
 }
+
+
+
+
+
 
