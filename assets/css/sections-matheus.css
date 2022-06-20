@@ -14,6 +14,10 @@ section .subtitulo-descricao {
 }
 
 /* ========================= SECTION 1 ========================= */
+.global-account {
+    margin-top: 116px;
+}
+
 .global-account .content {
     display: flex;
     flex-direction: column;
